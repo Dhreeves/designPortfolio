@@ -115,16 +115,16 @@ h4 {
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
-    width: 70%;
+   
   
   }
 
   #photo2 {
-    display: block;
+    /* display: block; */
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 40px;
-    width: 80%;
+    /* width: 80%; */
   }
 
   #photo3 {
@@ -132,7 +132,15 @@ h4 {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 40px;
-    width: 40%;
+    /* width: 40%; */
+  }
+
+  #photo4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    
   }
 
   
