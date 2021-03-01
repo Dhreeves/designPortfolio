@@ -107,25 +107,21 @@ h4 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20px;
-    width: 100%;
-  
+    padding-top: 80px;
+   
   }
 
   #photo2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 80px;
-  
-   
+    padding-top: 60px
   }
 
   #photo3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 200px;
- 
-    width: 60%;
+    padding-top: 150px;
+   
   }

@@ -115,7 +115,7 @@ h4 {
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
-    width: 40%;
+    
   
   }
 
@@ -123,16 +123,16 @@ h4 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
-    width: 40%;
+    margin-top: 50px;
+    
   }
 
   #photo3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 30px;
-    width: 80%;
+    padding-top: 40px;
+   
   }
 
   

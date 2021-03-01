@@ -110,38 +110,22 @@ h4 {
     
   }
 
-  #photo1 {
+  #photo1, #photo2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 10px;
-    width: 65%;
-  
   }
 
-  #photo2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10px;
-    width: 60%;
-  }
 
   #photo3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 35%;
+   
   }
 
-  #photo4 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10px;
-    width: 50%;
-  }
-
+ 
 
   
 
