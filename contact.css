@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header  {
+    box-shadow: 0px 3px 10px black;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    background: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+    margin: auto;
+
+    /* background-color: grey; */
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul {
+    font-size: 1rem;
+    flex: 1;
+}
+
+
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    
+}
+
+.nav-links li{
+    list-style: none;
+    
+}
+
+.nav-links a {
+    color: rgb(209, 198, 97);
+    text-decoration: none;
+    font-weight: bold;
+  letter-spacing: 2px;
+}
+
+
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:rgb(248, 98, 28);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+  
+
+}
+
+.contact {
+    font-family: 'Poppins', sans-serif;
+   text-align: center;
+   margin-top: 2rem;
+ 
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+p {
+    flex-direction: column;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    margin: 50px 100px;
+}
+
+
+#social {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+   margin-bottom: 40px;
+    left: 50%;
+  }
+  
+  #social a {
+    background-color:  #125688;
+    text-decoration: none;
+    text-align: center;
+    font-size: 45px;
+    float: left;
+    left: -50%;
+    width: 48px;
+    height: 49px;
+    border-radius: 100%;
+    margin-right: 5px; /*space between*/
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  
+  #social a i{
+    font-size: 30px;
+  }
+  
+  #social a:hover {text-decoration: none;}
+  #social a.linkedin {color: #faf9fc;}
+  #social a.linkedin:hover {background-color: #1884BB;}
+  #social a.twitter {color: #faf9fc;}
+  #social a.twitter:hover {background-color: #1884BB;}
+  #social a.github {color: #faf9fc;}
+  #social a.github:hover {background-color:#1884BB;}
+  #social a.resume {color: #faf9fc;}
+  #social a.resume:hover {background-color:#1884BB;}

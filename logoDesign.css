@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header  {
+    box-shadow: 0px 3px 10px black;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    background: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+    margin: auto;
+
+    /* background-color: grey; */
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul {
+    font-size: 1rem;
+    flex: 1;
+}
+
+
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    
+}
+
+.nav-links li{
+    list-style: none;
+    
+}
+
+.nav-links a {
+    color: rgb(209, 198, 97);
+    text-decoration: none;
+    font-weight: bold;
+  letter-spacing: 2px;
+}
+
+
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:rgb(248, 98, 28);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h3 {
+    color: rgb(138, 122, 115);
+    padding: 1px 20px;
+    font-weight: lighter;
+    font-family: 'Cantarell', sans-serif;
+}
+
+h4 {
+    color: rgb(228, 111, 57);
+    /* padding-left: 20px; */
+    text-align: center;
+}
+
+.carousel-inner {
+    margin: 1rem 3rem;
+}
+
+.carousel-item {
+   
+    height: 40rem;
+    background-size: cover;
+    align-items: center;
+}
+
+#moveImage {
+   width: 90%;
+   margin: auto;
+}
+
+#highlight {
+    background-color:  rgb(228, 111, 57);
+}
+
+  .carousel-indicators .active {
+    background-color:rgb(228, 111, 57);
+  }
+
+  #carouselExampleCaptions {
+     padding-right: 6rem;
+    
+  }
+
+  #photo1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    width: 100%;
+  
+  }
+
+  #photo2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+  
+   
+  }
+
+  #photo3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+ 
+    width: 60%;
+  }
